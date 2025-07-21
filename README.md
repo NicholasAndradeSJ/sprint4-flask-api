@@ -1,4 +1,4 @@
-![Logo TerraLab](Imagem/terraLabLogo-Horizontal-300x59.png)
+<img width="300" height="59" alt="terraLabLogo-Horizontal-300x59" src="https://github.com/user-attachments/assets/59bf3de6-c366-4874-8bdb-ee7e405ab4ce" />
 
 # 4º Sprint - Nicholas Andrade 🐉
 
@@ -178,7 +178,8 @@ pytest -v
 **Resultado dos Testes:**
 Todos os 11 testes foram executados e passaram com sucesso, cobrindo as principais funcionalidades e casos de erro da aplicação.
 
-[![Resultado dos Testes](https://github.com/NicholasAndradeSJ/sprint4-flask-api/assets/e930712f-9bd8-487e-a27b-48f735620d16)](https://github.com/NicholasAndradeSJ/sprint4-flask-api/assets/e930712f-9bd8-487e-a27b-48f735620d16)
+
+![pyTest](https://github.com/user-attachments/assets/f1df0c7d-f896-427b-87cf-7663f3409c80)
 
 
 ## 10. Autor
