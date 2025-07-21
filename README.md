@@ -182,10 +182,7 @@ Todos os 11 testes foram executados e passaram com sucesso, cobrindo as principa
 ![pyTest](https://github.com/user-attachments/assets/f1df0c7d-f896-427b-87cf-7663f3409c80)
 
 
-## 10. Autor
+## 10. Meu Perfil 🌐
 
-**Nicholas Andrade**
+[![linkedin](https://img.shields.io/badge/LinkedIn%20|%20Nicholas%20Andrade-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nicholas-andrade-ufopjm/)
 
-- LinkedIn: `[Seu Perfil no LinkedIn]`
-- GitHub: `[Seu Perfil no GitHub]`
-`
