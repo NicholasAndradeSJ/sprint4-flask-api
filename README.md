@@ -60,10 +60,10 @@ O sistema segue uma arquitetura cliente-servidor simples, onde o fluxo de uma re
 
 ```mermaid
 graph TD
-    A[Cliente <br> (ex: Insomnia, Frontend)] -- 1. Requisição HTTP --> B{Servidor Flask <br> (app.py)};
-    B -- 2. Consulta SQL <br> (psycopg2) --> C[(Banco de Dados <br> PostgreSQL + PostGIS)];
-    C -- 3. Retorna Dados --> B;
-    B -- 4. Resposta JSON --> A;
+    A["Cliente <br> (ex: Insomnia, Frontend)"] -- "Requisição HTTP" --> B{"Servidor Flask <br> (app.py)"};
+    B -- "Consulta SQL <br> (psycopg2)" --> C[("Banco de Dados <br> PostgreSQL + PostGIS")];
+    C -- "Retorna Dados" --> B;
+    B -- "Resposta JSON" --> A;
 ```
 1.  **Requisição HTTP**: O cliente (neste caso, o Insomnia, mas poderia ser um site ou aplicativo) envia uma requisição para um dos endpoints da API (ex: `POST /AdicionarUsuario/`).
 2.  **Consulta SQL**: O servidor Flask recebe a requisição, processa os dados e se comunica com o banco de dados PostgreSQL através do driver `psycopg2`, executando uma instrução SQL para inserir, consultar, atualizar ou deletar dados. A extensão PostGIS é utilizada para manipular os dados geoespaciais.
